@@ -1,0 +1,3 @@
+FROM python:latest
+COPY http-metrics.py ./http-metrics.py
+CMD ["python","http-metrics.py"]
